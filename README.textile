@@ -4,7 +4,7 @@ h2. Installasjon
 
 h2. Bruk
 
-@middag@
+@$ middag@
 
 h2. Beskrivelse
 

@@ -5,7 +5,7 @@ require 'rake/gempackagetask'
 require 'spec/rake/spectask'
  
 GEM = "middag"
-GEM_VERSION = "0.1"
+GEM_VERSION = "0.1.1"
 SUMMARY = "Gir deg middagsforslag."
 AUTHOR = "Andreas Heim"
 EMAIL = "andreas@heim.no"
