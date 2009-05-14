@@ -1,0 +1,12 @@
+h2. Installasjon
+
+@sudo gem install heim-middag -s http://gems.github.com@
+
+h2. Bruk
+
+@middag@
+
+h2. Beskrivelse
+
+Gir deg middagstips fra beta.gab.net/middag
+

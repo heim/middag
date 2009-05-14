@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby 
+require 'rubygems'
+require 'httparty'
+require 'crack'
+
+class Middag
+  include HTTParty
+  
+  def self.middag
+    get('http://beta.gab.net/middag?json')
+  end
+end
+
+#puts Middag.get
+response = HTTParty.get('http://beta.gab.net/middag?json')
+
+parsed_response = Crack::JSON.parse(response)
+
+puts "Du skal ha #{parsed_response['meal']} til middag i dag."
+puts "Middagen serveres av @heim, med forslag fra @geirarne."
